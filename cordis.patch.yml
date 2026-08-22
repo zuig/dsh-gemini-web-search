@@ -1,0 +1,6 @@
+- insert:
+    - id: gemini-web-search
+      name: dsh-gemini-web-search
+- id: web
+  config:
+    searchProvider: gemini-grounding
