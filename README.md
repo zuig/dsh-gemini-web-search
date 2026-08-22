@@ -108,7 +108,7 @@ A backend's status can be:
 - `unhealthy`
 - `unknown`
 
-Quota values are only displayed when returned by a provider's response headers. If the provider does not expose a remaining-count API, the UI reports `Provider did not report quota` rather than guessing.
+Quota values are only displayed when returned by a provider's response headers. Multiple comma-separated values represent multiple provider rate-limit windows and are preserved as returned. If the provider does not expose a remaining-count API, the UI reports `Provider did not report quota` rather than guessing.
 
 ## Security
 
