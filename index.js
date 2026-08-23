@@ -12,7 +12,7 @@ const CLIENT_HEADER = "x-dsh-gemini-web-search";
 const HOME = () => process.env.DSH_HOME || join(homedir(), ".dsh");
 const CONFIG_FILE = () => join(HOME(), "storages", "gemini-web-search-config.json");
 const STATE_FILE = () => join(HOME(), "storages", "gemini-web-search-runtime.json");
-const DEFAULT_MODELS = ["gemini-3.6-flash", "gemini-3-flash-preview", "gemini-3.5-flash-lite", "gemini-3.5-flash", "gemini-2.5-flash"];
+const DEFAULT_MODELS = ["gemma-4-31b-it", "gemma-4-26b-a4b-it", "gemini-robotics-er-2-preview", "gemini-robotics-er-1.6-preview", "gemini-3.6-flash", "gemini-3-flash-preview", "gemini-3.5-flash-lite", "gemini-3.5-flash"];
 const CATALOG = {
   brave: { name: "Brave Search", credential: "BRAVE_SEARCH_API_KEY", applyURL: "https://api-dashboard.search.brave.com/app/keys", freeNote: "每月 $5 免费 credits；官方标价 $5/1,000 次搜索。" },
   tavily: { name: "Tavily Search", credential: "TAVILY_API_KEY", applyURL: "https://app.tavily.com/home", freeNote: "Researcher 免费计划：每月 1,000 API credits，无需信用卡。" },
