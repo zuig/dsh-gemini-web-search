@@ -143,6 +143,9 @@ DSH Web → 设置 → 插件 → 网页搜索
 
 配额显示只使用供应商响应中实际提供的限流信息。供应商没有提供剩余次数时，界面会明确显示“供应商未提供”，不会根据搜索结果数量猜测。
 
+<img width="578" height="690" alt="image" src="https://github.com/user-attachments/assets/f1b4347a-690a-4707-b2d1-9b4b985023fa" />
+
+
 ## License
 
 MIT. See [LICENSE](./LICENSE).
